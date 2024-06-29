@@ -12,7 +12,7 @@ dependencies:
   build: ^2.4.1
   build_config: ^1.1.1
   cloud_firestore_odm: ^1.0.0-dev.85
-  collection: ^1.19.0
+  collection: ^1.18.0
   freezed_annotation: ">=2.4.1"
   # Can be removed once this is fixed https://github.com/dart-lang/graphs/issues/86
   graphs: ^2.3.1
