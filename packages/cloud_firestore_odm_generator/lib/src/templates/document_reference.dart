@@ -73,7 +73,7 @@ class _\$${data.documentReferenceName}
     final parameters = [
       for (final field in data.updatableFields)
         if (field.updatable) ...[
-          '${field.type.getDisplayString(withNullability: true)} ${field.name},',
+          '${field.type.getDisplayString()} ${field.name},',
           'FieldValue ${field.name}FieldValue,',
         ],
     ];

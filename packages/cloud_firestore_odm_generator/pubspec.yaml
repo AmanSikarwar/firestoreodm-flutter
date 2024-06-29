@@ -8,23 +8,27 @@ environment:
   sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
-  analyzer: ">=5.12.0 <7.0.0"
-  build: ^2.0.1
-  build_config: ^1.0.0
-  cloud_firestore_odm: ^1.0.0-dev.84
-  collection: ^1.15.0
-  freezed_annotation: ">=1.0.0 <3.0.0"
+  analyzer: ">=6.7.0"
+  build: ^2.4.1
+  build_config: ^1.1.1
+  cloud_firestore_odm: ^1.0.0-dev.85
+  collection: ^1.19.0
+  freezed_annotation: ">=2.4.1"
   # Can be removed once this is fixed https://github.com/dart-lang/graphs/issues/86
-  graphs: ^2.0.0
-  json_annotation: ^4.8.1
-  meta: ^1.8.0
-  recase: ^4.0.0
-  source_gen: ^1.3.2
+  graphs: ^2.3.1
+  json_annotation: ^4.9.0
+  meta: ^1.15.0
+  recase: ^4.1.0
+  source_gen: ^1.5.0
   source_helper: ^1.3.4
 
+dependency_overrides:
+  cloud_firestore_odm:
+    path: ../cloud_firestore_odm
+
 dev_dependencies:
-  build_runner: ^2.4.2
-  expect_error: ^1.0.5
-  json_serializable: ">=6.3.0 <7.0.0"
-  matcher: ^0.12.10
-  test: ^1.16.8
+  build_runner: ^2.4.11
+  expect_error: ^1.0.7
+  json_serializable: ">=6.8.0"
+  matcher: ^0.12.16
+  test: ^1.25.7
